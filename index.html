@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Luna</title>
+
+  <link rel="stylesheet" href="cafe.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Café<span>Luna</span></a>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reservation">Reserve</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tag">Premium Coffee House</p>
+      <h1>Slow mornings, warm coffee, calm moments.</h1>
+      <p class="desc">
+        A cozy café experience crafted with rich flavors, soft ambience,
+        and unforgettable desserts.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn primary">Explore Menu</a>
+        <a href="#reservation" class="btn secondary">Book a Table</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Coffee cup">
+      <div class="floating-box">
+        <span>Best Seller</span>
+        <h3>Caramel Latte</h3>
+        <p>$6.50</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="section-title">
+      <span>Our Specials</span>
+      <h2>Signature Menu</h2>
+    </div>
+
+    <div class="menu-grid">
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" alt="">
+        <div>
+          <h3>Classic Cappuccino</h3>
+          <p>Espresso, steamed milk, cocoa dust.</p>
+          <strong>$5.00</strong>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80" alt="">
+        <div>
+          <h3>Honey Croissant</h3>
+          <p>Buttery layers with golden honey glaze.</p>
+          <strong>$4.50</strong>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="">
+        <div>
+          <h3>Chocolate Dessert</h3>
+          <p>Dark chocolate, cream, roasted nuts.</p>
+          <strong>$7.00</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img"></div>
+
+    <div class="about-text">
+      <span>About Us</span>
+      <h2>A calm place for coffee lovers.</h2>
+      <p>
+        Café Luna brings together elegant design, warm coffee, soft desserts,
+        and a relaxing atmosphere made for peaceful conversations.
+      </p>
+      <a href="#reservation" class="btn primary">Reserve Now</a>
+    </div>
+  </section>
+
+  <section class="reservation" id="reservation">
+    <div class="section-title">
+      <span>Book Now</span>
+      <h2>Reserve Your Table</h2>
+    </div>
+
+    <form class="booking-form">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+      <input type="date">
+      <input type="time">
+      <select>
+        <option>2 Guests</option>
+        <option>4 Guests</option>
+        <option>6 Guests</option>
+      </select>
+      <input type="tel" placeholder="Phone Number">
+      <textarea placeholder="Special Request"></textarea>
+      <button type="submit">Book Table</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Café Luna. Crafted by Muhammed Khalaf.</p>
+  </footer>
+
+</body>
+</html>
