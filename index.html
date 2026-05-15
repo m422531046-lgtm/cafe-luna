@@ -13,6 +13,9 @@
 </head>
 
 <body>
+  <div class="loader">
+  <div class="cup"></div>
+</div>
 
   <header class="header">
     <a href="#" class="logo">Café<span>Luna</span></a>
@@ -34,7 +37,6 @@
         A cozy café experience crafted with rich flavors, soft ambience,
         and unforgettable desserts.
       </p>
-
       <div class="hero-buttons">
         <a href="#menu" class="btn primary">Explore Menu</a>
         <a href="#reservation" class="btn secondary">Book a Table</a>
@@ -123,9 +125,42 @@
     </form>
   </section>
 
-  <footer>
-    <p>© 2026 Café Luna. Crafted by Muhammed Khalaf.</p>
-  </footer>
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>Opening Hours</h3>
+      <p>All Days: 8:00 AM - 10:00 PM</p>
+      <p>Friday: 9:00 AM - 12:00 AM</p>
+      <p> VIP: 8:00 AM - 12:00 PM</p>
+    </div>
 
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Palestine, Gaza</p>
+      <p>+972595626446</p>
+      <p>Mu@Khalaf.com</p>
+    </div>
+    <div class="footer-column social-column">
+        <h3>Social</h3>
+        <a href="https://www.instagram.com/Mudi-Khalaf" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/Mudi-Khalaf" target="_blank">Facebook</a>
+        <a href="https://www.tiktok.com/@Mudi-Khalaf" target="_blank">TikTok</a>
+</div>
+  </div>
+  </div class="footer-bottom">
+    <p>© 2026 Café Luna. Crafted by Muhammed Khalaf.</p>
+  </div>
+  </footer>
+  <script>
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+
+    if (window.scrollY > 80) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>
 </body>
 </html>
